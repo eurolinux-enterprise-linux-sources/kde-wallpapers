@@ -1,7 +1,7 @@
 Summary: KDE Wallpapers
 Name:    kde-wallpapers
 Version: 4.10.5
-Release: 1%{?dist}
+Release: 2%{?dist}
 
 License: LGPLv3
 URL:     http://www.kde.org/
@@ -60,6 +60,9 @@ make install/fast DESTDIR=%{buildroot} -C %{_target_platform}
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 4.10.5-2
+- Mass rebuild 2013-12-27
+
 * Sun Jun 30 2013 Than Ngo <than@redhat.com> - 4.10.5-1
 - 4.10.5
 
